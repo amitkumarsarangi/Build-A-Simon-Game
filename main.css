@@ -1,0 +1,147 @@
+* {
+	margin: 0; border: 0; padding: 0;
+}
+/* CSS Reset above this line... ... ... */
+body {
+	background: #000000;
+}
+/* All tag selectors above this line ... ... ... */
+.main-container {
+	position: relative;
+	top: 30px;
+	left: 300px;
+	cursor: pointer;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+	#color-blocks {
+		width: 540px;
+		height: 540px;
+		border-radius: 50%;
+		box-shadow: 0 0 90px 0 grey;
+		position: absolute;
+		top: 50px;
+		left: 50px;
+	}
+
+		#block1, #block2, #block3, #block4 {
+			margin: 5px;
+			width: 260px;
+			height: 260px;
+			float: left;
+			opacity: 0.5;
+			transition: 0.5s ease;
+		}
+		#block1 {
+			background-color: red;
+			border-top-left-radius: 100%;
+		}
+		#block2 {
+			background-color: green;
+			border-top-right-radius: 100%;
+		}
+		#block3 {
+			background-color: blue;
+			border-bottom-left-radius: 100%;
+		}
+		#block4 {
+			background-color: yellow;
+			border-bottom-right-radius: 100%;
+		}
+
+	#onOff {
+		padding-top: 30px;
+		width: 90px;
+		height: 60px;
+		background-color: #000000;
+		color: #FF0000;
+		font-size: 25px;
+		font-family: sans-serif;
+		font-weight: bold;
+		text-align: center;
+		box-shadow: 0 0 5px 1px whitesmoke;
+		border-radius: 50%;
+		position: absolute;
+		top: 275px;
+		left: 275px;
+	}
+
+	#wrong {
+		padding-top: 10px;
+		width: 90px;
+		height: 80px;
+		background-color: #000000;
+		color: #FF0000;
+		font-size: 65px;
+		text-align: center;
+		font-family: sans-serif;
+		box-shadow: 0 0 25px 1px #FF0000;
+		border-radius: 50%;
+		position: absolute;
+		top: 275px;
+		left: 275px;
+		display: none;
+	}
+
+	#step {
+		padding-top: 10px;
+		width: 90px;
+		height: 80px;
+		background-color: #000000;
+		color: #FF0000;
+		font-size: 57px;
+		text-align: center;
+		font-family: sans-serif;
+		box-shadow: 0 0 25px 1px #FF0000;
+		border-radius: 50%;
+		position: absolute;
+		top: 275px;
+		left: 690px;
+	}
+
+	#strict {
+		padding-top: 23px;
+		width: 90px;
+		height: 67px;
+		background-color: #000000;
+		color: #FF0000;
+		font-size: 35px;
+		text-align: center;
+		font-family: sans-serif;
+		box-shadow: 0 0 25px 1px #FF0000;
+		border-radius: 50%;
+		position: absolute;
+		top: 275px;
+		left: -140px;
+	}
+	#strictON {
+		width: 90px;
+		height: 29px;
+		background-color: #000000;
+		color: #FF0000;
+		font-size: 25px;
+		text-align: center;
+		font-family: sans-serif;
+		box-shadow: 0 0 25px 1px #FF0000;
+		position: absolute;
+		top: 240px;
+		left: -140px;
+	}
+	#win {
+		padding-top: 10px;
+		width: 90px;
+		height: 80px;
+		background-color: #000000;
+		color: #FF0000;
+		font-size: 22px;
+		text-align: center;
+		font-family: sans-serif;
+		box-shadow: 0 0 25px 1px #FF0000;
+		border-radius: 50%;
+		position: absolute;
+		top: 275px;
+		left: 275px;
+		display: none;
+	}
